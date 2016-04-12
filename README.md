@@ -21,7 +21,7 @@ _E-postadressen_, som är av typen ```String```, ska hanteras av den autoimpleme
 
 _Förnamnet_ refererar till ett ```String```-objekt och liksom e-postadressen hanteras detta fält automatiskt av kompilatorn, via den autoimplementerade egenskapen ```FirstName```.
 
-_Efternamnet_ refererar till ett ```String```-objekt som håller användarens efternamn, samt kapslas in av den autoimplementerade egenskapen ```LastName```.
+_Efternamnet_ refererar till ett ```String```-objekt som kapslas in av den autoimplementerade egenskapen ```LastName```.
 
 _ _registrationDate_ är av typen ```DateTime``` (vilket är en ```struct``` och inte en klass!) och håller information om tillfället då besökaren registrerade sig. Detta är det enda fält som explicit ska deklareras (dvs. uttryckligen skapas av programmeraren). Fältet kapslas in av egenskapen ```RegistrationDate```.   
 
