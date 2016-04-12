@@ -44,6 +44,7 @@ Klassen ska ha en metod:
 När du skrivit klassen ska du skriva ett program som testar klassen. Programmet ska skapa tre ```Contact```-objekt som ska innehålla följande data:
 
 ![Contact info](images/contactInfo.png)
+
 Tabell 1. Förväntade testdata för Program-klassen.
 
 Programmet ska skapa tre separata objekt med hjälp av de tre olika konstruktorerna. Genom att använda metoden ```ToString()``` i klassen ```Contact``` ska aktuella kontaktdata presenteras i ett konsolfönster. I samband med att du utnyttjar standardkonstruktorn för att skapa ett objekt, måste du använda egenskaperna för att tilldela objektet förnamn, efternamn, etc. (se översta raden i tabellen med testdata).
