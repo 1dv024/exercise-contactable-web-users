@@ -17,13 +17,13 @@ Skriv klassen ```Contact``` som ska ha följande innehåll:
 Figur 1. Klassdiagram över klassen Contact som ärver från klassen Object
 
 **Medlemsattribut / Fält** (_Fields_)<br/>
-__emailAddress_, som är av typen ```String``` och innehåller e-postadressen, ska hanteras av den autoimplementerade egenskapen ```EmailAddress```. Fältet behöver då inte deklareras utan blir underförstått, dvs. skapas och hanteras implicit (automatiskt) av kompilatorn.
+_E-postadressen_, som är av typen ```String```, ska hanteras av den autoimplementerade egenskapen ```EmailAddress```. Fältet behöver då inte deklareras utan blir underförstått, dvs. skapas och hanteras implicit (automatiskt) av kompilatorn.
 
-__firstName_ refererar till ett ```String```-objekt som håller användarens förnamn. Liksom e-postadressen hanteras detta fält automatiskt av kompilatorn, via den autoimplementerade egenskapen ```FirstName```.
+_Förnamnet_ refererar till ett ```String```-objekt och liksom e-postadressen hanteras detta fält automatiskt av kompilatorn, via den autoimplementerade egenskapen ```FirstName```.
 
-__lastName_ refererar till ett ```String```-objekt som håller användarens efternamn, samt kapslas in av den autoimplementerade egenskapen ```LastName```.
+_Efternamnet_ refererar till ett ```String```-objekt som håller användarens efternamn, samt kapslas in av den autoimplementerade egenskapen ```LastName```.
 
-__registrationDate_ är av typen ```DateTime``` (vilket är en ```struct``` och inte en klass!) och håller information om tillfället då besökaren registrerade sig. Detta är det enda fält som explicit ska deklareras (dvs. uttryckligen skapas av programmeraren). Fältet kapslas in av egenskapen ```registrationDate```.   
+_ _registrationDate_ är av typen ```DateTime``` (vilket är en ```struct``` och inte en klass!) och håller information om tillfället då besökaren registrerade sig. Detta är det enda fält som explicit ska deklareras (dvs. uttryckligen skapas av programmeraren). Fältet kapslas in av egenskapen ```RegistrationDate```.   
 
 **Egenskaper** (_Properties_)<br/>
 Klassen ska ha ovan nämnda, publika egenskaper knutna till de fyra (privata) fälten. (Se även avsnittet "Properties" i klassdiagrammet.)
